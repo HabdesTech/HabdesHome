@@ -1,0 +1,124 @@
+
+/* Center the loader */
+#loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(/Recursos/Logo/HABDES-GIFT2.gif) 50% 50% no-repeat white;
+}
+  
+
+/* ESTILOS GENERALES */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.logo-principal a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    padding: 0 0 0 25%;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.habdes-name  {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 200;
+    font-size: 100px;
+}
+
+
+.menu-desplegable h5{
+    font-size: 15px;
+    list-style: none;
+    color: rgb(139, 152, 168);
+}
+
+.boton_contacto {
+    width: 170px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    cursor: none;
+    transition: all 0.2s ease-in 0s;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(98deg, rgb(48, 165, 102), rgb(0, 141, 135));
+}
+.boton_contacto_alterno {
+    width: 170px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    cursor: none;
+    transition: all 0.2s ease-in 0s;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(98deg, #B396EA, #6F42C1);
+}
+.BORRAR {
+    border: 1px solid black;
+}
+
+
+
+/*----------------------------------CUERPO----------------------------------*/
+/*-----------------CUERPO-----------------*/
+
+
+.vista_previa {
+    background-color: #6f42c1;
+    outline: 0;
+}
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+}
+
+
+/*----------------------------------FOOTER----------------------------------*/
+.footer {
+    background:#202020;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-family: hero-new, sans-serif;
+    font-size: 25px;
+}
+.footer_informacion {
+    margin: 2em 0 0 0;
+    padding: 2em 0 0 0;
+}
+.footer_redes {
+    margin: 1.15em 0 0 0;
+    padding: 2em 0 5em 0;
+    font-size: 35px;
+}
