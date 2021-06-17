@@ -1,5 +1,5 @@
-
 /* Center the loader */
+
 #loader {
     position: fixed;
     left: 0px;
@@ -9,23 +9,23 @@
     z-index: 9999;
     background: url(/img/Logo/HABDES-GIFT2.gif) 50% 50% no-repeat white;
 }
-  
 
 /* ESTILOS GENERALES */
-* { 
-    margin: 0; 
-    padding: 0; 
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 #particles-js {
-	height: 100vh; 
-	width: 100%;
+    height: 100vh;
+    width: 100%;
     position: fixed;
     z-index: -1;
 }
 
-.habdes-name  {
+.habdes-name {
     font-family: 'MuseoModerno', cursive;
     font-weight: 200;
     font-size: 100px;
@@ -44,6 +44,7 @@
     font-weight: 600;
     background: linear-gradient(98deg, rgb(48, 165, 102), rgb(0, 141, 135));
 }
+
 .boton_contacto_02 {
     width: 170px;
     border-radius: 25px;
@@ -57,6 +58,7 @@
     font-weight: 600;
     background: linear-gradient(98deg, rgb(181, 23, 158), rgb(114, 9, 183));
 }
+
 .boton_contacto_03 {
     width: 120px;
     border-radius: 25px;
@@ -70,10 +72,11 @@
     font-weight: 600;
     background: linear-gradient(98deg, rgb(48, 165, 102), rgb(0, 141, 135));
 }
-.BORRAR {
-    border: 1px solid black;
-}
+
+
+
 /*----------------------------------MENU-DESPLEGABLE----------------------------------*/
+
 .boton-producto {
     border: none;
     outline: none;
@@ -82,6 +85,7 @@
     font-weight: 550;
     color: #535161;
 }
+
 /*----------------------------------CUERPO----------------------------------*/
 
 .boton-1 {
@@ -130,5 +134,44 @@
     padding: 56px 24px;
     margin: 2em 10em;
 }
+
 /*----------------------------------FOOTER----------------------------------*/
 
+/*----------------------------------EFECTO TYPE EFFECT----------------------------------*/
+
+.titulo_principal {
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.texto_invisible {
+    color: white
+}
+.section_banner_principal {
+    display: flex;
+    flex-direction: row;
+}
+.section_banner_01 {
+    width: 100%;
+}
+.section_banner_02 {
+    width: 100%;
+}
+
+@media (max-width: 700px) { 
+    .titulo_principal {
+        font-size: 25px;
+    }
+    .section_banner_principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+.section_banner_botones {
+    justify-content: center;
+}
+.card {
+    border: none;
+}

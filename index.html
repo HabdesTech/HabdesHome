@@ -23,7 +23,7 @@
     <meta name="description"
         content="Habdes es una empresa peruana especializada en el desarrollo de productos y plataformas digtiales">
     <meta name="keywords"
-        content="HABDES, habdes, Habdes, marketing, diseño, páginas web, data, analytics, bigdata, Saas, inteligencia artificial, mypes, pymes">
+        content="HABDES, habdes, Habdes, marketing, diseño, páginas web, data, analytics, bigdata, Saas, inteligencia artificial, mypes, pymes, desarrollo web, tiendas virtuales, e commerce">
     <meta name="author" content="Letto">
     <script src="https://kit.fontawesome.com/b693463453.js" crossorigin="anonymous"></script>
     <link data-react-helmet="true"
@@ -149,13 +149,15 @@
     } 
     </script>
     <meta name="google" content="nositelinkssearchbox" />
+    <!---------------DATOS ESTRUCTURADOS--------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded">
         <div class="container">
             <a class="navbar-brand habdes-name" href="/index.html" style="font-size: 28px;"><img
-                    src="/img/Logo/Logo-Habdes.png" width="50" height="50">HABDES</a>
+                    src="/img/Logo/Habdes_logo_HD.svg" width="50" height="50">HABDES</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
                 aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -326,28 +328,39 @@
     <!-------------------------CUERPO---------------------------->
     <!--------------SECTION_1------------------>
     <section class="container-md justify-content-center pb-3">
-        <div class="row">
-            <div class="col-6 col-md-6 text-left">
-                <h1>
-                    Transformación digital para tu negocio
-                </h1>
-                <p>Te ayudamos a dar el primer paso, que tu negocio necesita, hacia la era digital</p>
-                <p>Prueba la demo de tu futura página web</p>
-                <div class="row">
-                    <div class="m-2">
-                        <a href="/" target="_blank">
-                            <button type="button" class="boton_contacto">Servicios</button>
+        <div class="section_banner_principal">
+            <div class="text-left  section_banner_01">
+                <div style="margin-bottom: 5%;">
+                    <h1 class="titulo_principal">
+                        Transformación digital
+                        para
+                        <a href="" class="typewrite" data-period="2000"
+                            data-type='["tu negocio", "tu empresa", "tu proyecto", "y más..." ]'>
+                            <span class="wrap texto_invisible">a</span>
                         </a>
+                    </h1>
+                </div>
+                <div>
+                    <p>Te ayudamos a dar el primer paso, que tu negocio necesita, hacia la era digital</p>
+                    <p>Revisa nuestros servicios o temas</p>
+                    <div class="row section_banner_botones">
+                        <div class="m-2">
+                            <a href="#servicios">
+                                <button type="button" class="boton_contacto">Servicios</button>
+                            </a>
 
-                    </div>
-                    <div class="m-2" >
-                        <a href="https://themes.habdes.pe/" target="_blank"><button type="button" class="boton_contacto_02">Temas</button></a>
-                        
+                        </div>
+                        <div class="m-2">
+                            <a href="https://themes.habdes.pe/" target="_blank"><button type="button"
+                                    class="boton_contacto_02">Temas</button></a>
+
+                        </div>
                     </div>
                 </div>
+
             </div>
-            <div class="col-6 col-md-6">
-                <img src="/img/Imagenes/Imagen3.svg" class="img-fluid" style="width: 500px;height: 500px;">
+            <div class=" animate__animated animate__lightSpeedInRight  section_banner_02 ">
+                <img src="/img/Imagenes/Imagen3.svg" class="img-fluid section_banner_02" style="width: 500px;height: 500px;">
             </div>
         </div>
     </section>
@@ -362,7 +375,7 @@
                     Nuestros servicios:
                 </h1>
             </div>
-            <div class="container-md pt-5">
+            <div class="container-md pt-5" id="servicios">
                 <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a class="nav-link active text-black-50" id="home-tab" data-toggle="tab" href="#home" role="tab"
@@ -517,7 +530,7 @@
             </div>
         </footer>
     </div>
-
+    <script src="/src/efectos.js"></script>
     <!--BOOSTRAP JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
